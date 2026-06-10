@@ -4,7 +4,7 @@ import '../models/crop_result.dart';
 
 class ApiService {
   // Emulator ke liye yeh IP hai
-  static const String baseUrl = 'http://localhost:8000';
+  static const String baseUrl = 'https://agrismart-production-c589.up.railway.app';
 
   static Future<CropResult> predictCrop({
     required double nitrogen,
